@@ -1,0 +1,29 @@
+// Folder-specific settings
+//
+// For a full list of overridable settings, and general information on folder-specific settings,
+// see the documentation: https://zed.dev/docs/configuring-zed#settings-files
+{
+  "lsp": {
+    "luau-lsp": {
+      "settings": {
+        "ext": {
+          "roblox": {
+            "enabled": false
+          }
+        },
+
+        "luau-lsp": {
+          "require": {
+            "directoryAliases": {
+              "@lune/": "~/.lune/.typedefs/0.8.9/"
+            },
+            "mode": "relativeToFile"
+          },
+          "sourcemap": {
+            "enabled": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "label": "Build project",
+    "command": "just build",
+    //"args": [],
+    // Env overrides for the command, will be appended to the terminal's environment from the settings.
+    // "env": { "foo": "bar" },
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "reveal_target": "dock",
+    "hide": "never",
+    "shell": "system"
+  },
+  {
+    "label": "Lint project",
+    "command": "just lint",
+    //"args": [],
+    // Env overrides for the command, will be appended to the terminal's environment from the settings.
+    // "env": { "foo": "bar" },
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "reveal_target": "dock",
+    "hide": "never",
+    "shell": "system"
+  },
+  {
+    "label": "Format project",
+    "command": "just format",
+    //"args": [],
+    // Env overrides for the command, will be appended to the terminal's environment from the settings.
+    // "env": { "foo": "bar" },
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "reveal_target": "dock",
+    "hide": "never",
+    "shell": "system"
+  }
+]
